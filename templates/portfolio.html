@@ -10,9 +10,9 @@
       <meta name="author" content="">
       <title>Echoes - Free HTML Bootstrap Template</title>
       <!-- Css -->
-      <link href="css/bootstrap.css" rel="stylesheet">
-      <link href="css/lightbox.css" rel="stylesheet" type="text/css" media="all" />
-      <link href="css/style.css" rel="stylesheet">
+      <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+      <link href="{% static 'css/lightbox.css' %}" rel="stylesheet" type="text/css" media="all" />
+      <link href="{% static 'css/style.css' %}" rel="stylesheet">
    </head>
    <body>
       <nav class="navbar navbar-default color-fill navbar-fixed-top">
@@ -125,8 +125,8 @@
       <!-- script -->
       <script src="{% static 'js/jquery.js' %}"></script>
       <script src="{% static 'js/bootstrap.min.js' %}"></script>
-      <script src="static/js/lightbox-plus-jquery.js"></script>
-      <script src="static/js/jquery.shuffle.min.js"></script>
+      <script src="{% static 'js/lightbox-plus-jquery.js' %}"></script>
+      <script src="{% static 'js/jquery.shuffle.min.js' %}"></script>
       <script src="{% static 'js/modernizr.js' %}"></script>
       <script src="{% static 'js/script.js' %}"></script>
    </body>
