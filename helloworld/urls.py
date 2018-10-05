@@ -23,4 +23,4 @@ urlpatterns = [
     path('about.html/', views.about, name = 'about'),
     path('contact.html/', views.contact, name = 'contact'),
     path('portfolio.html/', views.portfolio, name = 'portfolio')
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
