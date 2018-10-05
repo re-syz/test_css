@@ -1,6 +1,7 @@
 /* Preload img */
+{% load static %}
 body:after {
-  content: url(static/img/close.png) url(static/img/loading.gif) url(static/img/prev.png) url(static/img/next.png);
+  content: url('{% static "/img/close.png" %}') url(static/img/loading.gif) url(static/img/prev.png) url(static/img/next.png);
   display: none;
 }
 
